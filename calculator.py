@@ -17,9 +17,9 @@ def divide(x, y):
     return x / y
 
 def multiply_list(listm):
-"""Функція множення елементів списку."""
-result = 1
-for item in listm:
-result *= item
-return result
+    """Функція множення елементів списку."""
+    result = 1
+    for item in listm:
+    result *= item
+    return result
 
