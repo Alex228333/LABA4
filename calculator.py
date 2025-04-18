@@ -15,3 +15,11 @@ def divide(x, y):
     if y == 0:
         raise ZeroDivisionError("Ділення на нуль неможливе")
     return x / y
+
+def multiply_list(listm):
+"""Функція множення елементів списку."""
+result = 1
+for item in listm:
+result *= item
+return result
+

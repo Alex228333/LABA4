@@ -28,5 +28,10 @@ class TestCalculatorFunctions(unittest.TestCase):
         with self.assertRaises(ZeroDivisionError):
             divide(5, 0)
 
+    def test_multiply_list(self):
+        self.assertEqual(multiply_list([1, 2, 3]), 6)
+
+        self.assertEqual(multiply_list([2, 2, 2]), 8)
+
 if __name__ == '__main__':
     unittest.main()
