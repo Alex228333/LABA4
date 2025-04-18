@@ -16,10 +16,9 @@ def divide(x, y):
         raise ZeroDivisionError("Ділення на нуль неможливе")
     return x / y
 
-def multiply_list(listm):
-    """Функція множення елементів списку."""
+def multiply_list(numbers):
     result = 1
-    for item in listm:
-    result *= item
+    for item in numbers:
+        result *= item
     return result
 
